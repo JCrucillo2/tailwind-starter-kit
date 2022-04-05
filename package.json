@@ -1,0 +1,15 @@
+{
+    "name": "tailwind-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:tail": "npx tailwindcss -i ./css/styles.css -o ./dist/output.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
